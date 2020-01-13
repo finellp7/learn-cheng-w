@@ -1,0 +1,34 @@
+#container{
+			width: 400px;
+			min-height: 300px;
+			background-color:lightgreen;
+			margin: auto;
+			text-align: center;
+			padding: 10px;
+		}
+		#contanier ul{
+			margin: 0;
+		}
+		#container li{
+			list-style: none;
+			background-color: grey;
+			text-align: left;
+			padding-left: 45px;
+			height: 25px;
+			line-height: 25px;
+			cursor: pointer;
+		}
+		#info {
+           position: absolute;
+           margin-top: 72px;
+          background: #fff;
+          z-index: 999999;
+          left: 650px;
+          width: 360px;
+        }
+        #info ul li{
+             height:38px;
+             line-height:38px;
+             font-size:14px;
+             padding-left: 20px;
+        }
